@@ -61,6 +61,12 @@ public class Main extends Askings{
 			System.out.println("\n\nYOU DIED!");
 			System.exit(0);
 		}
+		if (!h("You decide to start driving to the ship. Should you drive fast?",
+				"You push the throttle lever up as far as it goes.",
+				"The boat crawls so slowly you can't tell if it's the waves moving the boat or the engine. The dragon seems to get curious about the \ncabin before meeting you inside. Soon after your special surprise, smoke starts rising from \nyour clothes before you can realize what is happening!",s,p,i)) {
+			System.out.println("\n\nYOU DIED!");
+			System.exit(0);
+		}
 		System.out.println("\n\nCongratulations! You Win!");
 		System.exit(0);
 		
