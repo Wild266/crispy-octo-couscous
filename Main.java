@@ -67,12 +67,6 @@ public class Main extends Askings{
 			System.out.println("\n\nYOU DIED!");
 			System.exit(0);
 		}
-		if (!h("As the boat speeds up you get a feeling that something is watching you. You then remember a word, but you're not sure what it means but you get\nthe feeling you should say it out loud. Or should you?",
-				"You say the word-quite loudly-which sounds like HALT but seems to have an accent of some sort.",
-				"You remain quiet and soon the dragon is behind you and you feel poison crawl up from a sharp pain on your shoulder.",s,p,i)) {
-			System.out.println("\n\nYOU DIED!");
-			System.exit(0);
-		}
 		System.out.println("\n\nCongratulations! You Win!");
 		System.exit(0);
 		
