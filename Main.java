@@ -6,6 +6,7 @@ public class Main extends Askings{
 		Scanner s  = new Scanner(System.in);
 		System.out.println("Welcome to the Game of Choices!");
 		boolean p=true;
+		boolean clearingMethod=false;
 		//AtomicBoolean ab = new AtomicBoolean();
 		int i=1;
 		
