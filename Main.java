@@ -10,9 +10,9 @@ public class Main extends Askings{
 		//AtomicBoolean ab = new AtomicBoolean();
 		int i=1;
 		
-		/*
-		System.out.println("Are you using the system console to play?")
-		*/
+		
+		//System.out.println("Are you using the system console to play?")
+		
 		//^asks for console regarding Clear method
 		System.out.println("Enter your name:\n");
 		String userName = s.next();
