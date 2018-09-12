@@ -11,7 +11,7 @@ public class Main extends Askings{
 		int i=1;
 		
 		
-		//System.out.println("Are you using the system console to play?")
+		System.out.println("Are you using the system console to play?")
 		
 		//^asks for console regarding Clear method
 		System.out.println("Enter your name:\n");
